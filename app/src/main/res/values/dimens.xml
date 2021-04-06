@@ -1,0 +1,4 @@
+<resources>
+    <!-- Default text margins, per the demo guidelines. -->
+    <dimen name="textSize">14sp</dimen>
+</resources>
