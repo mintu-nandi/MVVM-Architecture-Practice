@@ -34,9 +34,6 @@ class MainViewModelTest {
     @RelaxedMockK
     private lateinit var apiService: ApiService
 
-    @RelaxedMockK
-    private lateinit var sharedPreferences: SharedPreferences
-
     private lateinit var mainViewModel: MainViewModel
 
     @MockK

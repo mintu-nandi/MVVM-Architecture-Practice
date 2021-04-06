@@ -7,8 +7,8 @@ import com.bumptech.glide.Glide
 import com.example.example.databinding.ItemLayoutBinding
 import com.example.example.model.Todo
 
-class HomeAdapter(var list: List<Todo>) : RecyclerView.Adapter<HomeAdapter.HomeViewHolder>() {
-    class HomeViewHolder(val binding: ItemLayoutBinding): RecyclerView.ViewHolder(binding.root) {
+class HomeAdapter(private var list: List<Todo>) : RecyclerView.Adapter<HomeAdapter.HomeViewHolder>() {
+    class HomeViewHolder(private val binding: ItemLayoutBinding): RecyclerView.ViewHolder(binding.root) {
         fun bindView(data: Todo) {
             binding.textViewName.text = data.title
             binding.textViewEmail.text = data.userId.toString()
