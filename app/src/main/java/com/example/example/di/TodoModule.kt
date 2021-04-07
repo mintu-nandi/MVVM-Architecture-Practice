@@ -37,10 +37,4 @@ object TodoModule {
             mainRepository
         )
     }
-
-//    @ActivityScoped
-//    @Provides
-//    fun provideAuthenticationViewModel(propertiesRepository: MainRepository): MainViewModel {
-//        return MainViewModel(propertiesRepository)
-//    }
 }
